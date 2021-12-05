@@ -25,7 +25,20 @@ console.log(areaResult);
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+
+const crazySum = function(int1, int2) {
+
+    if (int1 === int2) {
+         return (int1 + int2) * 2
+    } else {
+        return int1 + int2
+    }
+}
+const sum = crazySum(5, 5)
+console.log(sum)
+
+*/
 
 
 /* EXERCISE 3
