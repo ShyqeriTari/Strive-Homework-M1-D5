@@ -112,7 +112,19 @@ console.log(strivify("all day"))
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+const check3and7 = function (number) {
+  if (number >= 0 && (number % 3 === 0 || number % 7 === 0)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+*/
+
+console.log(check3and7(15))
+
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
