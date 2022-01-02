@@ -146,7 +146,20 @@ console.log(reverseString("mare sole"))
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+
+function upperFirst (capital) {
+ let separateWord = capital.toLowerCase().split(' ')
+  for (let i = 0; i < separateWord.length; i++) {
+    separateWord[i] = separateWord[i].charAt(0).toUpperCase() +
+    separateWord[i].substring(1);
+ }
+ return separateWord.join(' ');
+}
+
+console.log(upperFirst("forza juve"))
+
+*/
 
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
