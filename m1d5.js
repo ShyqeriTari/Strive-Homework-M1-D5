@@ -103,7 +103,7 @@ const strivify = function (string) {
   }
 };
 
-console.log(strivify("all day"))
+console.log(strivify("Strive all day"))
 
 */
 
@@ -121,16 +121,26 @@ const check3and7 = function (number) {
   }
 }
 
-*/
-
 console.log(check3and7(15))
+
+*/
 
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+
+function reverseString(givenString) {
+
+  return givenString.split("").reverse("").join("");
+
+}
+
+console.log(reverseString("mare sole"))
+
+*/
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
